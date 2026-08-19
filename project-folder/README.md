@@ -46,7 +46,7 @@ The **Dry Bean Dataset** from the UCI Machine Learning Repository is used for th
 | Base Features | 16 numeric features |
 | Engineered Features | 3 additional features |
 | Total Features Used | 19 |
-| Target Variable | `Class` |
+| Target Variable | Class |
 | Number of Classes | 7 |
 | Problem Type | Multi-class Classification |
 
@@ -85,7 +85,7 @@ Therefore, the final dataset contains **19 features**, satisfying the feature re
 
 ### Target Classes
 
-The target variable is `Class`, representing seven registered varieties of dry beans:
+The target variable is Class, representing seven registered varieties of dry beans:
 
 1. Barbunya
 2. Bombay
@@ -112,7 +112,7 @@ To handle the class distribution appropriately:
 
 Five machine learning classification models were implemented and evaluated using the same Dry Bean dataset.
 
-All five models use an identical **80:20 stratified train-test split**. Each model is implemented using a `StandardScaler --> Classifier` pipeline.
+All five models use an identical **80:20 stratified train-test split**. Each model is implemented using a StandardScaler --> Classifier pipeline.
 
 ### 1. Logistic Regression
 ### 2. Decision Tree
@@ -243,7 +243,7 @@ An option to **Compare All Models** is also provided.
 
 ### Evaluation Metrics
 
-When the uploaded dataset contains the ground-truth `Class` column, the application calculates and displays:
+When the uploaded dataset contains the ground-truth Class column, the application calculates and displays:
 
 - Accuracy
 - AUC
