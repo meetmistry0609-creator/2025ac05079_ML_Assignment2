@@ -1,4 +1,4 @@
-# Dry Bean Classification — ML Assignment 2
+# Dry Bean Classification - ML Assignment 2
 
 ## a. Problem Statement
 
